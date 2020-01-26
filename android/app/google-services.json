@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "328800095091",
+    "firebase_url": "https://bonvallet-5fe0f.firebaseio.com",
+    "project_id": "bonvallet-5fe0f",
+    "storage_bucket": "bonvallet-5fe0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328800095091:android:c2378fd573e48b7b885306",
+        "android_client_info": {
+          "package_name": "com.example.bonvallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328800095091-f2jbn53207l0unak2hq1e2l81e5p5qdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsCso9jvH9FRsoLHiR2w-ae7SgUknQOGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328800095091-f2jbn53207l0unak2hq1e2l81e5p5qdh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
