@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Eric Konynenbelt",
+        "job": "Disc Jockey",
+        "skillset": [
+            {
+                "category": "Cooking",
+                "skills": [
+                    "Cook Curries",
+                    "Cook Indian",
+                    "Cook Korean",
+                    "Cook Instant Ramen",
+                    "Cook American"
+                ] 
+            },
+            {
+                "category": "Athletic",
+                "skills": [
+                    "Tumbling",
+                    "Basketball",
+                    "Real Football",
+                    "Skating",
+                    "Cheerleading"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Zach Wormstadt",
+        "job": "Formula One Driver",
+        "skillset": [
+            {
+                "category": "Driving",
+                "skills": [
+                    "Drive BMW",
+                    "Drive Mercedez",
+                    "Drive Formula One Cars",
+                    "Drift in ice",
+                    "Drift without ice"
+                ]
+            },
+            {
+                "category": "Baking",
+                "skills": [
+                    "Bake cookies for neighbor #99"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Salaar Ahmed Syed",
+        "job": "Professional Casanova",
+        "skillset": [
+            {
+                "category": "Relationship",
+                "skills": [
+                    "Make 69 types of origami flower",
+                    "Get 7 Community Assistants to fall in love with you",
+                    "Not be alone",
+                    "Score a goal despite a goalie",
+                    "Charming banter"
+                ]
+            },
+            {
+                "category": "Athletic",
+                "skills": [
+                    "Sleeping"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jin Hang Ng",
+        "job": "Slave",
+        "skillset": [
+            {
+                "category": "Athletic",
+                "skills": [
+                    "Type on keyboard while the animals are sleeping"
+                ]
+            },
+            {
+                "category": "Marksmanship",
+                "skills": [
+                    "Shoot a shotgun",
+                    "Shoot a Glock",
+                    "Shoot a sniper rifle",
+                    "Shoot a running target",
+                    "Shoot a target shooting a running target",
+                    "Shoot a running shooting target",
+                    "Shoot jackfruit seeds into garbage bin using mouth"
+                ]
+            }
+        ]
+    }
+]
