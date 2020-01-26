@@ -1,3 +1,4 @@
+import 'package:bonvallet/api/elastic.dart';
 import 'package:bonvallet/search/search.dart';
 import 'package:elastic_client/console_http_transport.dart';
 import 'package:flutter/material.dart';
@@ -28,6 +29,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  @override
+  initState() {
+    Elastic.insertDocument({});
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
