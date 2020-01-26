@@ -1,19 +1,19 @@
 import 'package:bonvallet/search/category-tile.dart';
 import 'package:flutter/material.dart';
 
-const categories = [
+final categories = [
   "Cooking",
   "Athletic",
   "Survival",
   "Marksmanship",
   "Academic",
   "Linguistic",
-  "Programming",
+  "Relationship",
   "Business",
   "Musical",
   "Vocal",
-  "Painting",
-  "Art"
+  "Art",
+  "Others"
 ];
 
 class SearchScreen extends StatelessWidget {
