@@ -20,9 +20,14 @@ class SearchScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-    return Center(
-      child: Wrap(
-        children: _buildTiles(width),
+    return Container(
+      decoration: BoxDecoration(
+        color: const Color(0xdcf1faEE),
+      ),
+      child: Center(
+        child: Wrap(
+          children: _buildTiles(width),
+        ),
       ),
     );
   }
@@ -32,16 +37,19 @@ class SearchScreen extends StatelessWidget {
     bool addDivider = true;
     categories.forEach((category) {
       tiles.add(CategoryTile(
-        width: width * 0.35,
+        width: width * 0.45,
         category: category
       ));
       if (addDivider) {
         tiles.add(VerticalDivider(
-          width: width * 0.1
+          width: width * 0.03
         ));
       }
       addDivider = !addDivider;
     });
+    if (!addDivider) {
+      tiles.removeLast();
+    }
     return tiles;
   }
 }
