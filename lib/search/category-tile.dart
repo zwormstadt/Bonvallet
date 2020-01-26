@@ -13,7 +13,14 @@ class CategoryTile extends StatelessWidget {
           gradient: LinearGradient(
             begin: Alignment.topLeft,
             end: Alignment(1.2, 0.0), // 10% of the width, so there are ten blinds.
-            colors: [const Color(0xFFFFFFEE), Colors.lightBlueAccent, Colors.lightBlue, Colors.deepPurple], // whitish to gray
+            colors: [
+              const Color(0xFFFFFFEE), 
+              Colors.lightBlueAccent, 
+              Colors.lightBlueAccent, 
+              Colors.lightBlue, 
+              Colors.deepPurple,
+              Colors.deepPurple
+            ], // whitish to gray
             tileMode: TileMode.repeated, // repeats the gradient over the canvas
           ),
           color: Colors.black,
