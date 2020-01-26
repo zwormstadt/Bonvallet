@@ -116,10 +116,8 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-<<<<<<< HEAD
   http:
     dependency: "direct main"
-=======
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -127,7 +125,6 @@ packages:
     version: "0.0.0"
   http:
     dependency: transitive
->>>>>>> login
     description:
       name: http
       url: "https://pub.dartlang.org"
