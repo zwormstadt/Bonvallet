@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.blue,
+        primaryColor: Color(0xFF3416ba)
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'b o n v a l l e t'),
     );
   }
 }
@@ -70,7 +70,14 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
+        title: Text(
+          widget.title,
+          style: TextStyle(
+            fontFamily: 'SF Pro',
+            fontWeight: FontWeight.w300,
+            fontSize: 25
+          ),
+        ),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
