@@ -281,10 +281,5 @@ packages:
     source: hosted
     version: "3.5.0"
 sdks:
-<<<<<<< HEAD
-  dart: ">=2.4.0 <3.0.0"
-  flutter: ">=1.6.0"
-=======
   dart: ">=2.7.0-dev <3.0.0"
   flutter: ">=1.12.13+hotfix.4 <2.0.0"
->>>>>>> elastic-merge-login
