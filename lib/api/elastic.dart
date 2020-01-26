@@ -9,7 +9,9 @@ class Elastic {
       "Content-Type": "application/json"
     };
     final String url = 'http://10.143.12.199:9200/' + indexName + '/_doc/';
+    print("before");
     var response = await http.post(url, headers: headers, body: convert.jsonEncode(document));
+    print("after");
     if (response.statusCode == 200 || response.statusCode == 201) {
       print("Insert document request succeeded with status code 200 or 201");
       status = true;
